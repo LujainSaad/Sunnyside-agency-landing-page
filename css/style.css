@@ -218,10 +218,10 @@ body {
   background-color: rgba(250, 189, 20, 0.3);
   border-radius: 2.5rem;
   height: .8rem;
-  width: 10rem;
+  width: 10.5rem;
   position: absolute;
   top: 2.4rem;
-  left: .5rem;
+  left: .9rem;
   box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
   z-index: 11; }
 
@@ -230,7 +230,7 @@ body {
   background-color: rgba(254, 120, 103, 0.3);
   border-radius: 2.5rem;
   height: .8rem;
-  width: 11rem;
+  width: 10.5rem;
   position: absolute;
   top: 2.4rem;
   left: .9rem;
