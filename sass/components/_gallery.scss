@@ -1,0 +1,20 @@
+.gallery {
+    // height: 30rem !important;
+    background-color: $color-light-moderate-cyan;
+
+
+    &_pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        @include respond(phone) {
+            height: 31rem !important;
+        }
+
+    }
+
+    &_holder{
+        overflow: hidden;
+    }
+}

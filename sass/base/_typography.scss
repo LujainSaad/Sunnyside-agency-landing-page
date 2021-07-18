@@ -1,0 +1,52 @@
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+    text-align: center;
+    // margin-top: 5rem;
+
+    &--main {
+        display: block;
+        font-size: 4.5rem;
+        @include Fraunces;
+        letter-spacing: 1rem;
+        margin: 5rem;
+
+        @include respond(tab-port) {
+            margin-top: 10rem;
+            font-size: 7rem;
+        }
+    }
+
+    &--arrow {
+        font-size: 13rem;
+
+        @include respond(tab-port) {
+            font-size: 25rem;
+        }
+    }
+
+
+}
+
+.heading-secondary {
+    color: $color-very-dark-blue;
+    font-size: 3.5rem;
+    @include Fraunces;
+
+    @include respond(phone) {
+        font-size: 5rem;
+    }
+}
+
+.paragraph {
+    color: $color-dark-greyish-blue;
+    padding: 3.5rem 0;
+    font-size: 2rem;
+    @include Barlow;
+    line-height: 2.8rem;
+
+    @include respond(phone) {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}

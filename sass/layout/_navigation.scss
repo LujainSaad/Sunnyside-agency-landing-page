@@ -1,0 +1,41 @@
+.navbar {
+    @include Barlow;
+    padding: 2rem 2rem 0 ;
+    font-size: 2rem;
+
+    &-brand {
+        font-size: 3rem ;
+    }
+
+
+    @include respond(tab-land) {
+        font-size: 3rem;
+
+        &-brand {
+            font-size: 4rem ;
+        }
+
+        &-toggler-icon {
+            height: 4rem ;
+            width: 4rem ;
+        }
+    }
+}
+
+.nav-item{
+    &:not(:last-child) {
+        padding-right: 2rem;
+    }
+
+    [class*="active"] {
+        &,
+        &:link,
+        &:visited {
+            @include Fraunces;
+            background-color: rgba($color-white, .9) ;
+            color: $color-very-dark-blue !important;
+            border-radius: 12rem ;
+            padding: .7rem 1.5rem;
+        }
+    }
+}

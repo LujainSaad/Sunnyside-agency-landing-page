@@ -1,0 +1,54 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        position: relative;
+        @include Fraunces;
+        color: $color-very-dark-blue;
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .5rem .8rem;
+        border-radius: 9rem;
+        font-size: $default-font-size;
+        background-color: $color-light-yellow;
+        box-shadow: 0 .3rem .8rem rgba($color-black, .2);
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+    }
+
+    &--yellow {
+
+        &::after {
+            content: "";
+            background-color: rgba($color-yellow,.3);
+            border-radius: 2.5rem;
+            height: .8rem;
+            width: 12rem;
+            position: absolute;
+            top: 2.4rem;
+            left: .4rem;
+            box-shadow: 0 .3rem .3rem rgba($color-black, .1);
+            z-index: 10;
+        }
+    }
+
+    &--red {
+        &::after {
+            content: "";
+            background-color: rgba($color-soft-red,.3);
+            border-radius: 2.5rem;
+            height: .8rem;
+            width: 12rem;
+            position: absolute;
+            top: 2.4rem;
+            left: .4rem;
+            box-shadow: 0 .3rem .5rem rgba($color-black, .2);
+            z-index: 10;
+        }
+    }
+}

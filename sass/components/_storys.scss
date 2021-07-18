@@ -1,0 +1,68 @@
+.story {
+
+    margin: 0 auto;
+    padding: 6rem 2rem;
+
+    @include respond(tab-port) {
+        padding: 6rem 0rem;
+
+    }
+
+    &__heading {
+        @include Fraunces;
+        text-transform: uppercase;
+        color: $grayish-blue;
+        font-size: 3.5rem;
+        padding-bottom: 4rem;
+        letter-spacing: 1rem;
+
+        @include respond(tab-port) {
+            margin-top: 5rem;
+            letter-spacing: .5rem;
+        }
+    }
+
+    &__shape {
+        width: 10rem;
+        height: 10rem;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%); //the shape itself
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    &__img {
+        height: 100%; //bcs the width wont work with this pic
+        backface-visibility: hidden;
+    }
+
+    &__paragraph {
+        color: $color-very-dark-greyish-blue;
+    }
+
+    &__info {
+
+        &-name {
+            display: block;
+            @include Fraunces;
+            color: $color-very-dark-blue;
+            font-size: 1.5rem;
+            line-height: 3.5rem;
+
+            @include respond(phone) {
+                font-size: 2.5rem;
+                line-height: 4.5rem;
+            }
+        }
+
+        &-job {
+            @include Barlow;
+            color: $grayish-blue;
+            font-size: 1.2rem;
+
+            @include respond(phone) {
+                font-size: 2rem;
+            }
+        }
+    }
+}

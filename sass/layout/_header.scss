@@ -1,0 +1,10 @@
+.header {
+    height: 100vh;
+    background-image: url(..\\images\\desktop\\image-header.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+    @media (max-width: 37.5em) {
+        background-image: url(..\\images\\mobile\\image-header.jpg);
+    }
+}

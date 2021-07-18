@@ -1,0 +1,11 @@
+
+.section-storys{
+    text-align: center;
+    padding: 12rem;
+    background-color: $color-light-yellow;
+    position: relative;
+
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
+}
