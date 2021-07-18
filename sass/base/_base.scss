@@ -24,11 +24,5 @@ html {
 }
 
 body {
-    box-sizing: border-box; //heightxwidth = contant+margin+padding+border
-    padding: 2rem;
-    overflow-x: hidden;  //to fix white space on right side of body on small viewports    
-    @include respond(tab-land) { 
-        padding: 0; 
-    }
-    
+    box-sizing: border-box; //heightxwidth = contant+margin+padding+border    
 }
