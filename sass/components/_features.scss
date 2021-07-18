@@ -1,6 +1,6 @@
 .features-box {
     position: relative;
-    height: 55rem;
+    height: 60rem;
 
     &_85 {
         @include respond(phone) {
@@ -9,7 +9,7 @@
     }
 
     &__about {
-        height: 55rem;
+        height: 60rem;
         padding: 12rem;
         background-color: $color-light-yellow;
 
@@ -19,21 +19,22 @@
 
         @include respond(phone) {
             text-align: center;
-            height: 60rem;
+            padding: 3rem 2rem 2rem;
+            height: 65rem;
         }
 
     }
 
     &__img {
         position: absolute;
-        height: 55rem;
+        height: 60rem;
         width: 100%;
         object-fit: cover;
         z-index: -1;
     }
 
     &_wt {
-        height: 55rem;
+        height: 60rem;
         text-align: center;
         position: relative;
         background-size: cover;
@@ -73,7 +74,7 @@
             transform: translate(-50%, -50%);
 
             @include respond(phone) {
-                top: 70%;
+                top: 60%;
                 left: 0;
                 transform: translate(-0, -0);
                 padding-left: 1.5rem;
@@ -107,12 +108,12 @@
     @include respond(phone) {
         &_text {
             position: absolute;
-            top: 55rem;
+            top: 60rem;
         }
 
         &_img {
             position: absolute;
-            bottom: 55rem;
+            bottom: 60rem;
         }
     }
 }

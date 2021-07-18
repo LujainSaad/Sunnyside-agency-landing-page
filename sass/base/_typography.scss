@@ -13,7 +13,7 @@
 
         @include respond(tab-port) {
             margin-top: 10rem;
-            font-size: 7rem;
+            font-size: 6rem;
         }
     }
 
@@ -30,11 +30,11 @@
 
 .heading-secondary {
     color: $color-very-dark-blue;
-    font-size: 3.5rem;
+    font-size: 5rem;
     @include Fraunces;
 
     @include respond(phone) {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 }
 
@@ -47,6 +47,6 @@
 
     @include respond(phone) {
         font-size: 3rem;
-        line-height: 5rem;
+        line-height: 4rem;
     }
 }

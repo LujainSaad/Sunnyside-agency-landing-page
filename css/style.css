@@ -36,7 +36,8 @@ html {
       font-size: 75%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 .heading-primary {
   color: #fff;
@@ -52,7 +53,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
         margin-top: 10rem;
-        font-size: 7rem; } }
+        font-size: 6rem; } }
   .heading-primary--arrow {
     font-size: 16rem; }
     @media only screen and (max-width: 56.25em) {
@@ -61,12 +62,12 @@ body {
 
 .heading-secondary {
   color: #23303e;
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-family: 'Fraunces', serif;
   font-weight: 700; }
   @media only screen and (max-width: 37.5em) {
     .heading-secondary {
-      font-size: 5rem; } }
+      font-size: 4.5rem; } }
 
 .paragraph {
   color: #818498;
@@ -78,7 +79,7 @@ body {
   @media only screen and (max-width: 37.5em) {
     .paragraph {
       font-size: 3rem;
-      line-height: 5rem; } }
+      line-height: 4rem; } }
 
 .header {
   height: 90vh;
@@ -288,12 +289,12 @@ body {
 
 .features-box {
   position: relative;
-  height: 55rem; }
+  height: 60rem; }
   @media only screen and (max-width: 37.5em) {
     .features-box_85 {
       height: 85rem; } }
   .features-box__about {
-    height: 55rem;
+    height: 60rem;
     padding: 12rem;
     background-color: #fffafb; }
     @media only screen and (max-width: 75em) {
@@ -302,15 +303,16 @@ body {
     @media only screen and (max-width: 37.5em) {
       .features-box__about {
         text-align: center;
-        height: 60rem; } }
+        padding: 3rem 2rem 2rem;
+        height: 65rem; } }
   .features-box__img {
     position: absolute;
-    height: 55rem;
+    height: 60rem;
     width: 100%;
     object-fit: cover;
     z-index: -1; }
   .features-box_wt {
-    height: 55rem;
+    height: 60rem;
     text-align: center;
     position: relative;
     background-size: cover;
@@ -342,7 +344,7 @@ body {
       transform: translate(-50%, -50%); }
       @media only screen and (max-width: 37.5em) {
         .features-box_wt__text {
-          top: 70%;
+          top: 60%;
           left: 0;
           transform: translate(0, 0);
           padding-left: 1.5rem; } }
@@ -367,10 +369,10 @@ body {
 @media only screen and (max-width: 37.5em) {
   .switch_text {
     position: absolute;
-    top: 55rem; }
+    top: 60rem; }
   .switch_img {
     position: absolute;
-    bottom: 55rem; } }
+    bottom: 60rem; } }
 
 .gallery {
   background-color: #95d0c2; }
