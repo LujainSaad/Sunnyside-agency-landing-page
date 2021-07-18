@@ -44,17 +44,17 @@ body {
   text-align: center; }
   .heading-primary--main {
     display: block;
-    font-size: 4.5rem;
+    font-size: 6rem;
     font-family: 'Fraunces', serif;
     font-weight: 700;
     letter-spacing: 1rem;
-    margin: 5rem; }
+    margin: 6.5rem 0 0; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
         margin-top: 10rem;
         font-size: 7rem; } }
   .heading-primary--arrow {
-    font-size: 13rem; }
+    font-size: 16rem; }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--arrow {
         font-size: 25rem; } }
@@ -81,7 +81,7 @@ body {
       line-height: 5rem; } }
 
 .header {
-  height: 100vh;
+  height: 90vh;
   background-image: url(..\\images\\desktop\\image-header.jpg);
   background-size: cover;
   background-position: bottom; }

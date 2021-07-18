@@ -6,10 +6,10 @@
 
     &--main {
         display: block;
-        font-size: 4.5rem;
+        font-size: 6rem;
         @include Fraunces;
         letter-spacing: 1rem;
-        margin: 5rem;
+        margin: 6.5rem 0 0;
 
         @include respond(tab-port) {
             margin-top: 10rem;
@@ -18,7 +18,7 @@
     }
 
     &--arrow {
-        font-size: 13rem;
+        font-size: 16rem;
 
         @include respond(tab-port) {
             font-size: 25rem;
